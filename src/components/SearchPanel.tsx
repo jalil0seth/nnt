@@ -14,7 +14,7 @@ interface SearchPanelProps {
     totalNodes: number;
     avgEngagement: number;
     riskScore: number;
-    trendingTopics: string[]; // Added trendingTopics to the interface
+    trendingTopics: string[];
   };
 }
 
