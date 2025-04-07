@@ -306,8 +306,8 @@ export function NetworkGraph({ data, title, className }: NetworkGraphProps) {
             <div className="space-y-1 text-sm font-mono">
               <p>Platform: {(selectedNode || hoveredNode)?.platform}</p>
               <p>Type: {(selectedNode || hoveredNode)?.type}</p>
-              <p>Followers: {(selectedNode || hoveredNode)?.followers.toLocaleString()}</p>
-              <p>Posts: {(selectedNode || hoveredNode)?.posts.toLocaleString()}</p>
+              <p>Followers: {(selectedNode || hoveredNode)?.followers?.toLocaleString()}</p>
+              <p>Posts: {(selectedNode || hoveredNode)?.posts?.toLocaleString()}</p>
               <p>Engagement: {(selectedNode || hoveredNode)?.engagement}%</p>
               <p>Sentiment: {(selectedNode || hoveredNode)?.sentiment.toFixed(2)}</p>
               <p>Risk Level: {(selectedNode || hoveredNode)?.threatLevel}</p>
